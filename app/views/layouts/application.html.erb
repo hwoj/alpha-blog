@@ -10,14 +10,7 @@
   </head>
 
   <body>
-    <% if flash.any?%>
-      <%= flash.each do |name, message| %>
-        <ul>
-        <li style="color:green">  <%= message %> </li>
-            
-        </ul>
-      <%end%>
-    <%end%>
+    <%= render 'layouts/messages' %>
     <%= yield %>
   </body>
 </html>

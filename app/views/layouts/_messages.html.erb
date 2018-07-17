@@ -1,0 +1,8 @@
+<% if flash.any?%>
+      <% flash.each do |name, message| %>
+        <ul>
+        <li style="color:green">  <%= message %> </li>
+            
+        </ul>
+      <%end%>
+    <%end%>
