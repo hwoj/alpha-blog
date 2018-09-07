@@ -1,3 +1,8 @@
+
+
+$navbar-default-bg: #000;
+@import "bootstrap-sprockets";
+@import "bootstrap";
 #logo {
 	float: left;
 	font-size: 1.7em;
@@ -23,7 +28,6 @@
 }
 
 .jumbotron h1 {
-	color: blue;
 	text-align: center;
 	margin-bottom: 30px;
 	letter-spacing: -1px;
@@ -55,11 +59,16 @@ footer ul li {
 	margin-left: 15px;
 }
 
-$navbar-default-bg: #000;
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
 .btn-xlarge {
 	font-size: 1.7em;
 	background-color: black;
+}
+
+.article-actions {
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+}
+
+.description {
+	margin-top: 0;
 }
